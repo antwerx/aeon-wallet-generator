@@ -84,7 +84,7 @@
   <meta charset="UTF-8">
 
 </head>
-<body>
+<body bgcolor=111111 >
 <script>
 
 var JSBigInt = (function () {
@@ -3055,10 +3055,10 @@ var mn_words = {
 
 </script>
 
+<hr>
+<font color=00ffff>
 
-
-
-        <h4>Offline wallet generator</h4>
+        <center><h1>Offline wallet generator</h1></center>
 
 
 
@@ -3075,30 +3075,28 @@ var mn_words = {
                        value="Generate wallet" action=""/>
                 <p>Custom entropy (leave empty to use PRNG)</p>
                 <input type="text" value="" id="user_entropy_widget" />
-
+<hr>
  
-                     <p><h3></h3> Public address</p></h3>
+                     <p><h3><center> Public address</p></center></h3>
 
                     <p>This is the address you give to third parties to send aeon to you.
                         <br><b>It is the only information here that's meant to be public.</b>
                     </p>
              
                 
-        
-                       <center> <table bgcolor="#00FF00"><tr>
-                    <pre class="center-align" id="address_widget">generating...</pre>
-                        </tr>
+                   <center><table bgcolor=eeeeee>
+                        <tbody><tr>
+                    <td><pre id="address_widget">generating...</pre></td>
+                        </tr></tbody>
                     </table></center>
-    
-<h4><center>Private keys [IMPORTANT]</h4></center>
+    <hr>
+<h2><center>Private keys [IMPORTANT]</h2></center>
 
-                    <p>
-                        The spend key and view key are the raw private keys for the
-                        new wallet.
-                        <b>They are the only way to recover your wallet! Write them down and keep them secure.
+                    <p>Spend and view keys are the private keys that make up your wallet. Don't share them with anyone, write them in a secure place. They are the only way to restore your wallet if your software is corrupted/missing.
                     </p>
                     <br>
-                    <table>
+                    <hr><center>
+                    <table bgcolor=eeeeee>
                         <tbody>
                         <tr>
                             <td><pre>Spend key:</pre></td>
@@ -3110,7 +3108,8 @@ var mn_words = {
                         </tr>
                         </tbody>
                     </table>
-
+                </center>
+            </font>
 
 
 
