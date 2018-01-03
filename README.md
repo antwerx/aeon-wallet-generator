@@ -5,4 +5,4 @@ These pages generate an Aeon address. It is self contained and does all the nece
   
   Wallet-gen page creates a wallet address, keys, qr code and mnemonics and presents them to you visually. PdfGen puts the same information (except the mnemonic seed) on a printable paper wallet.
 
-[Download Wallet Gen](https://github.com/jerrimus/aeon-wallet-generator/releases/download/beta1/aeon-wallet-gen.zip)  or   [Download PDF Gen](https://github.com/jerrimus/aeon-wallet-generator/files/1599273/AeonPdfGen.zip)
+[Download Wallet Gen](https://github.com/jerrimus/aeon-wallet-generator/releases/download/beta1/aeon-wallet-gen.zip)  or   [Download PDF Gen](https://github.com/jerrimus/aeon-wallet-generator/releases/download/beta1/AeonPdfGen.zip)
