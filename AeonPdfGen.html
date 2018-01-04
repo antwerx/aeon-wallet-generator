@@ -4097,7 +4097,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
     <div class="container">
         <div class="row mt-3">
             <div class="col-12">
-                <div class="alert alert-danger important">Please be aware that there is no way to recover your funds if you lose your wallet keys. Without your PUBLIC WALLET, PRIVATE SPEND and PRIVATE VIEW keys you cannot ever recover your Aeon you send to this wallet so keep the PDF or paper print out VERY SAFE.</div>
+                <div class="alert alert-danger important">Please be aware that there is no way to recover your funds if you lose your wallet keys. With the curreent wallet implementation, you MUST have the restore key to recover your funds.</div>
             </div>
         </div>
     </div>
@@ -4203,7 +4203,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
 
             <div class="row">
                     <div id="keyfour" class="col-12 hidden" >
-                        <p><h3>The 24 words that appear here are your mnemonic key. Write or photograph them somewhere safe.</h3></p>
+                        <p><h3><enter>These 24 words are your restore key: KEEP THEM SAFE, this is the "master key".</h3></p></center>
                         <br>
                         <hr>
                         <br>
@@ -4978,8 +4978,6 @@ window.onload = function () {
     }, 3000);
 }
 </script>
-<footer><center>
-<font size=2 color=000000 face="Trebuchet MS">If you would like to contribute to the costs/development of this site you may <a href="donation.html" target="_blank">click here</a></font></center>
-</footer>
+
 </body>
 </html>
